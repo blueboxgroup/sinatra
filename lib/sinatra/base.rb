@@ -7,7 +7,8 @@ require 'sinatra/showexceptions'
 require 'tilt'
 require 'backports'
 
-warn "WARNING: Sinatra 1.2.x has reached its EOL. Please upgrade."
+# Silence WARNING.  We know.
+# warn "WARNING: Sinatra 1.2.x has reached its EOL. Please upgrade."
 
 module Sinatra
   VERSION = '1.2.9'
